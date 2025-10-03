@@ -45,6 +45,8 @@ align-items: center;
 background-color: transparent;
 padding-top: 100px;
 padding-bottom: 100px;
+margin-left: 200px;
+margin-right: 200px;
 }
 
 .container-one-bl {
@@ -67,9 +69,14 @@ padding-bottom: 100px;
 
 .signup {
     background-color: #3882F6;
-    border-radius: 25px;
-    width: 125px;
+    border-radius: 5px;
+    width: 175px;
+    height: 50px;
     color: white;
+    align-self: flex-end;
+    margin-right: 50px;
+    font-weight: 900;
+    font-size: 24px;
 }
 
 .container-two {
@@ -141,4 +148,56 @@ padding-bottom: 100px;
 .container-three-b {
     text-align: end;
     font-weight: 600;
+}
+
+.container-four {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 48px
+}
+
+.container-four-inner {
+    display: flex;
+    background-color: #3882F6;
+    align-items: center;
+    padding-left: 75px; 
+    padding-right: 75px;
+    padding-top: 75px;
+    padding-bottom: 75px;
+    gap: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.container-four-l {
+    display: flex;
+    flex-direction: column;
+    max-width: 500px;
+    gap: 6px;
+    color: white;
+}
+
+.container-four-head {
+    font-size: 28px;
+    font-weight: 600;
+}
+
+
+.signup-bottom {
+    background-color: #3882F6;
+    border-radius: 5px;
+    width: 200px;
+    color: white;
+    border-color: white;
+    width: 250px;
+    height: 70px;
+    font-size: 32px;
+    font-weight: 600;
+    border-style: solid;
+}
+
+.logo {
+    border-radius: 35%;
+    overflow: hidden;
 }
